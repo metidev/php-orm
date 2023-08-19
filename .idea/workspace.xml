@@ -108,7 +108,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/xampp/htdocs/phpunit",
     "node.js.detected.package.eslint": "true",
@@ -181,7 +181,7 @@
       <workItem from="1692254297443" duration="99000" />
       <workItem from="1692254415843" duration="8506000" />
       <workItem from="1692262952357" duration="3511000" />
-      <workItem from="1692427755099" duration="2383000" />
+      <workItem from="1692427755099" duration="2647000" />
     </task>
     <servers />
   </component>
