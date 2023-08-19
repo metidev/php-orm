@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5190a470-fb62-4584-a9da-1506df9c799c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerConfigs">
+    <option name="configs">
+      <option value="$PROJECT_DIR$/example/composer.json" />
+    </option>
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/example/vendor/composer" />
+      <path value="$PROJECT_DIR$/example/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/example/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/example/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/example/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/example/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/example/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/example/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/example/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/example/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/example/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/example/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/example/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/version" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2Ty02r6ozcQsi16dkFsRvEMIYsK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Constants": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/xampp/htdocs/phpunit",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "php.override.implement.member.chooser.php.doc": "NONE",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="ls" />
+    </option>
+  </component>
+  <component name="RunManager" selected="PHPUnit.PDOQueryBuilderTest.testItReturnZeroWhenRecordNotFoundForUpdate">
+    <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner configuration_file="$PROJECT_DIR$/example/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PDOQueryBuilderTest.testCanUpdateMultipleWhere" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\PDOQueryBuilderTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/PDOQueryBuilderTest.php" method="testCanUpdateMultipleWhere" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PDOQueryBuilderTest.testItCanDeleteRecord" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\PDOQueryBuilderTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/PDOQueryBuilderTest.php" method="testItCanDeleteRecord" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PDOQueryBuilderTest.testItCanFetchData" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\PDOQueryBuilderTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/PDOQueryBuilderTest.php" method="testItCanFetchData" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PDOQueryBuilderTest.testItCanGetFirstRow" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\PDOQueryBuilderTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/PDOQueryBuilderTest.php" method="testItCanGetFirstRow" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PDOQueryBuilderTest.testItReturnZeroWhenRecordNotFoundForUpdate" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\PDOQueryBuilderTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/PDOQueryBuilderTest.php" method="testItReturnZeroWhenRecordNotFoundForUpdate" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.PDOQueryBuilderTest.testItReturnZeroWhenRecordNotFoundForUpdate" />
+        <item itemvalue="PHPUnit.PDOQueryBuilderTest.testItCanGetFirstRow" />
+        <item itemvalue="PHPUnit.PDOQueryBuilderTest.testItCanFetchData" />
+        <item itemvalue="PHPUnit.PDOQueryBuilderTest.testItCanDeleteRecord" />
+        <item itemvalue="PHPUnit.PDOQueryBuilderTest.testCanUpdateMultipleWhere" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5190a470-fb62-4584-a9da-1506df9c799c" name="Changes" comment="" />
+      <created>1691999808969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691999808969</updated>
+      <workItem from="1691999810014" duration="7339000" />
+      <workItem from="1692168786399" duration="3565000" />
+      <workItem from="1692172388182" duration="75000" />
+      <workItem from="1692172479035" duration="8315000" />
+      <workItem from="1692254297443" duration="99000" />
+      <workItem from="1692254415843" duration="8506000" />
+      <workItem from="1692262952357" duration="3511000" />
+      <workItem from="1692427755099" duration="2383000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
