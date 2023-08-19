@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'metidev/phpunit',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'd70e282f6acd6af5c06989d8fbae6ad0a3af8345',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'metidev/phpunit' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'd70e282f6acd6af5c06989d8fbae6ad0a3af8345',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
