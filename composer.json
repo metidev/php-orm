@@ -1,27 +1,29 @@
 {
-    "name": "metidev/phpunit",
-    "require": {
-        "phpunit/phpunit": "^10.3",
-        "ext-couchbase": "*",
-        "ext-pdo": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "App\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "metidev",
-            "email": "anwrymhdy1@gmail.com"
-        }
-    ],
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests"
-        }
-    },
+  "name": "metidev/phpunit",
+  "require": {
+    "phpunit/phpunit": "^10.3",
+    "guzzlehttp/guzzle": "^7.0",
+    "ext-couchbase": "*",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "metidev",
+      "email": "anwrymhdy1@gmail.com"
+    }
+  ],
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests"
+    }
+  },
   "require-dev": {
+    "roave/security-advisories": "dev-latest",
     "ext-json": "*"
   }
 }
