@@ -40,9 +40,12 @@ class PDOQueryBuilder
 
     public function where(string $column, string $value)
     {
-        $this->conditions[] = "{$column}=?";
+        if (is_null($this->conditions)) {
+            $this->conditions = "{$column}=?";
+        } else {
+            $this->conditions .= " AND {$column}=?";
+        }
         $this->values[] = $value;
-
         return $this;
     }
 
@@ -53,8 +56,7 @@ class PDOQueryBuilder
             $feilds[] = "{$column}='$value'";
         }
         $feilds = implode(',', $feilds);
-        $conditions = implode(' and ', $this->conditions);
-        $sql = "UPDATE {$this->table} SET {$feilds} WHERE {$conditions}";
+        $sql = "UPDATE {$this->table} SET {$feilds} WHERE {$this->conditions}";
 
         $this->execute($sql);
         return $this->statement->rowCount();
@@ -62,17 +64,15 @@ class PDOQueryBuilder
 
     public function delete()
     {
-        $conditions = implode(' and ', $this->conditions);
-        $sql = "DELETE FROM {$this->table} WHERE {$conditions}";
+        $sql = "DELETE FROM {$this->table} WHERE {$this->conditions}";
         $this->execute($sql);
         return $this->statement->rowCount();
     }
 
     public function get(array $columns = ['*'])
     {
-        $conditions = implode(' and ', $this->conditions);
         $columns = implode(',', $columns);
-        $sql = "SELECT {$columns} FROM {$this->table} WHERE {$conditions}";
+        $sql = "SELECT {$columns} FROM {$this->table} WHERE {$this->conditions}";
         $this->execute($sql);
         return $this->statement->fetchAll();
     }
