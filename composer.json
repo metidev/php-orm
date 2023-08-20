@@ -2,6 +2,7 @@
     "name": "metidev/phpunit",
     "require": {
         "phpunit/phpunit": "^10.3",
+        "guzzlehttp/guzzle": "^7.0",
         "ext-couchbase": "*",
         "ext-pdo": "*"
     },

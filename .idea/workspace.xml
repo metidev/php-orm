@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5190a470-fb62-4584-a9da-1506df9c799c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpunit.cache/test-results" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.cache/test-results" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/PDOQueryBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/PDOQueryBuilder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +100,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2Ty02r6ozcQsi16dkFsRvEMIYsK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -131,13 +138,13 @@
       <command value="ls" />
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.PDOQueryBuilderTest.testItReturnZeroWhenRecordNotFoundForUpdate">
-    <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner configuration_file="$PROJECT_DIR$/example/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
+  <component name="RunManager" selected="PHPUnit.CrudTest.testItCanFetchDataWithApi">
+    <configuration name="CrudTest.testItCanFetchDataWithApi" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Functional\CrudTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Functional/CrudTest.php" method="testItCanFetchDataWithApi" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="PDOQueryBuilderTest.testCanUpdateMultipleWhere" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\PDOQueryBuilderTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/PDOQueryBuilderTest.php" method="testCanUpdateMultipleWhere" scope="Method" />
+    <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner configuration_file="$PROJECT_DIR$/example/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
       <method v="2" />
     </configuration>
     <configuration name="PDOQueryBuilderTest.testItCanDeleteRecord" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -158,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.CrudTest.testItCanFetchDataWithApi" />
         <item itemvalue="PHPUnit.PDOQueryBuilderTest.testItReturnZeroWhenRecordNotFoundForUpdate" />
         <item itemvalue="PHPUnit.PDOQueryBuilderTest.testItCanGetFirstRow" />
         <item itemvalue="PHPUnit.PDOQueryBuilderTest.testItCanFetchData" />
         <item itemvalue="PHPUnit.PDOQueryBuilderTest.testItCanDeleteRecord" />
-        <item itemvalue="PHPUnit.PDOQueryBuilderTest.testCanUpdateMultipleWhere" />
       </list>
     </recent_temporary>
   </component>
