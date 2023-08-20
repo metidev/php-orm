@@ -126,7 +126,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+<<<<<<< HEAD
     &quot;git-widget-placeholder&quot;: &quot;0d787244&quot;,
+=======
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+>>>>>>> f8a2f04 (tdsa454)
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/phpunit&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
