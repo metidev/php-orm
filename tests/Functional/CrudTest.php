@@ -89,6 +89,7 @@ class CrudTest extends TestCase
 
     }
 
+
     /**
      * @depends testItCanCreateDataWithApi
      */
@@ -107,6 +108,7 @@ class CrudTest extends TestCase
 
         $this->assertNull($bug);
     }
+
 
     public function tearDown(): void
     {

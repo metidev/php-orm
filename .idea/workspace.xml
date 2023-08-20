@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5190a470-fb62-4584-a9da-1506df9c799c" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/47e8e9b6-3130-4ff9-a78b-e00d1c062098.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/47e8e9b6-3130-4ff9-a78b-e00d1c062098.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.phpunit.cache/test-results" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.cache/test-results" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Functional/CrudTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Functional/CrudTest.php" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpunit.cache/test-results" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.cache/test-results" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/PDOQueryBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/PDOQueryBuilder.php" afterDir="false" />
+>>>>>>> master
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,10 +136,14 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
 <<<<<<< HEAD
+<<<<<<< HEAD
     &quot;git-widget-placeholder&quot;: &quot;0d787244&quot;,
 =======
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
 >>>>>>> f8a2f04 (tdsa454)
+=======
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+>>>>>>> master
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/phpunit&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -154,6 +167,7 @@
     </option>
   </component>
   <component name="RunManager" selected="PHPUnit.CrudTest.testItCanFetchDataWithApi">
+<<<<<<< HEAD
     <configuration name="CrudTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Functional\CrudTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Functional/CrudTest.php" scope="Class" />
       <method v="2" />
@@ -174,6 +188,28 @@
       <TestRunner configuration_file="$PROJECT_DIR$/example/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
       <method v="2" />
     </configuration>
+=======
+    <configuration name="CrudTest.testItCanFetchDataWithApi" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Functional\CrudTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Functional/CrudTest.php" method="testItCanFetchDataWithApi" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner configuration_file="$PROJECT_DIR$/example/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PDOQueryBuilderTest.testItCanDeleteRecord" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\PDOQueryBuilderTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/PDOQueryBuilderTest.php" method="testItCanDeleteRecord" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PDOQueryBuilderTest.testItCanFetchData" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\PDOQueryBuilderTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/PDOQueryBuilderTest.php" method="testItCanFetchData" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PDOQueryBuilderTest.testItCanGetFirstRow" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\PDOQueryBuilderTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/PDOQueryBuilderTest.php" method="testItCanGetFirstRow" scope="Method" />
+      <method v="2" />
+    </configuration>
+>>>>>>> master
     <configuration name="PDOQueryBuilderTest.testItReturnZeroWhenRecordNotFoundForUpdate" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Unit\PDOQueryBuilderTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/PDOQueryBuilderTest.php" method="testItReturnZeroWhenRecordNotFoundForUpdate" scope="Method" />
       <method v="2" />
@@ -181,10 +217,17 @@
     <recent_temporary>
       <list>
         <item itemvalue="PHPUnit.CrudTest.testItCanFetchDataWithApi" />
+<<<<<<< HEAD
         <item itemvalue="PHPUnit.CrudTest.testItCanUpdateDataWitApi" />
         <item itemvalue="PHPUnit.CrudTest.testItCanCreateDataWithApi" />
         <item itemvalue="PHPUnit.CrudTest" />
         <item itemvalue="PHPUnit.PDOQueryBuilderTest.testItReturnZeroWhenRecordNotFoundForUpdate" />
+=======
+        <item itemvalue="PHPUnit.PDOQueryBuilderTest.testItReturnZeroWhenRecordNotFoundForUpdate" />
+        <item itemvalue="PHPUnit.PDOQueryBuilderTest.testItCanGetFirstRow" />
+        <item itemvalue="PHPUnit.PDOQueryBuilderTest.testItCanFetchData" />
+        <item itemvalue="PHPUnit.PDOQueryBuilderTest.testItCanDeleteRecord" />
+>>>>>>> master
       </list>
     </recent_temporary>
   </component>

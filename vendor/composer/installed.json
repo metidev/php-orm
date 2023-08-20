@@ -1228,6 +1228,7 @@
             "install-path": "../ralouphie/getallheaders"
         },
         {
+<<<<<<< HEAD
             "name": "roave/security-advisories",
             "version": "dev-latest",
             "version_normalized": "dev-latest",
@@ -1889,6 +1890,8 @@
             "install-path": null
         },
         {
+=======
+>>>>>>> master
             "name": "sebastian/cli-parser",
             "version": "2.0.0",
             "version_normalized": "2.0.0.0",
