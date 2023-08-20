@@ -30,3 +30,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     json_response(null, 200);
 }
+
+if ($_SERVER['REQUEST_METHOD'] === 'PUT') {
+    $queryBuilder->table('bugs')
+        ->where('id', request()['id'])
+        ->update(request());
+
+    json_response(null, 200);
+}
+
+if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+    $bug = $queryBuilder->table('bugs')
+        ->find(request()['id']);
+
+    json_response($bug, 200);
+}

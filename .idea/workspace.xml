@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5190a470-fb62-4584-a9da-1506df9c799c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/47e8e9b6-3130-4ff9-a78b-e00d1c062098.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/47e8e9b6-3130-4ff9-a78b-e00d1c062098.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpunit.cache/test-results" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.cache/test-results" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Functional/CrudTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Functional/CrudTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,38 +118,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Constants": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "7878f27f",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/xampp/htdocs/phpunit",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "php.override.implement.member.chooser.php.doc": "NONE",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Constants&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;0d787244&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/phpunit&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="ls" />
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.CrudTest.testItCanCreateDataWithApi">
+  <component name="RunManager" selected="PHPUnit.CrudTest.testItCanFetchDataWithApi">
     <configuration name="CrudTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Functional\CrudTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Functional/CrudTest.php" scope="Class" />
       <method v="2" />
@@ -157,16 +158,16 @@
       <TestRunner class="Tests\Functional\CrudTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Functional/CrudTest.php" method="testItCanCreateDataWithApi" scope="Method" />
       <method v="2" />
     </configuration>
+    <configuration name="CrudTest.testItCanFetchDataWithApi" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Functional\CrudTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Functional/CrudTest.php" method="testItCanFetchDataWithApi" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CrudTest.testItCanUpdateDataWitApi" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Functional\CrudTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Functional/CrudTest.php" method="testItCanUpdateDataWitApi" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/example/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
-      <method v="2" />
-    </configuration>
-    <configuration name="PDOQueryBuilderTest.testItCanFetchData" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\PDOQueryBuilderTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/PDOQueryBuilderTest.php" method="testItCanFetchData" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="PDOQueryBuilderTest.testItCanGetFirstRow" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\PDOQueryBuilderTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/PDOQueryBuilderTest.php" method="testItCanGetFirstRow" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="PDOQueryBuilderTest.testItReturnZeroWhenRecordNotFoundForUpdate" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -175,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.CrudTest.testItCanFetchDataWithApi" />
+        <item itemvalue="PHPUnit.CrudTest.testItCanUpdateDataWitApi" />
         <item itemvalue="PHPUnit.CrudTest.testItCanCreateDataWithApi" />
         <item itemvalue="PHPUnit.CrudTest" />
         <item itemvalue="PHPUnit.PDOQueryBuilderTest.testItReturnZeroWhenRecordNotFoundForUpdate" />
-        <item itemvalue="PHPUnit.PDOQueryBuilderTest.testItCanGetFirstRow" />
-        <item itemvalue="PHPUnit.PDOQueryBuilderTest.testItCanFetchData" />
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +200,7 @@
       <workItem from="1692254415843" duration="8506000" />
       <workItem from="1692262952357" duration="3511000" />
       <workItem from="1692427755099" duration="3739000" />
+      <workItem from="1692520768986" duration="585000" />
     </task>
     <servers />
   </component>
