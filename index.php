@@ -45,3 +45,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 
     json_response($bug, 200);
 }
+
+if ($_SERVER['REQUEST_METHOD'] === 'DELETE') {
+    $bug = $queryBuilder->table('bugs')
+        ->where('id', request()['id'])
+        ->delete();
+
+    json_response(null, 204);
+}

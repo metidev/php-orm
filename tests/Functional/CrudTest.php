@@ -89,6 +89,25 @@ class CrudTest extends TestCase
 
     }
 
+    /**
+     * @depends testItCanCreateDataWithApi
+     */
+    public function testItCanDeleteWithApi($bug)
+    {
+        $response = $this->httpClient->delete('index.php',
+            [
+                'json' => [
+                    'id' => $bug->id
+                ]
+            ]);
+        $this->assertEquals(204, $response->getStatusCode());
+        $bug = $this->queryBuilder
+            ->table('bugs')
+            ->find($bug->id);
+
+        $this->assertNull($bug);
+    }
+
     public function tearDown(): void
     {
         $this->httpClient = null;
